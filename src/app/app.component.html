@@ -1,0 +1,15 @@
+<hello name="{{ name }}"></hello>
+<p>
+	Convert Length in MM to IN :)
+</p>
+<div>
+<label>Length in MM:-</label>&nbsp;&nbsp;
+<input name="mm" type="text" [(ngModel)]="lengthInMM" (ngModelChange)="convertMMToIN()"/>
+<br/>
+<br/>
+<label>Length in IN:-</label>&nbsp;&nbsp;
+<label>{{ansIN}}</label>
+</div>
+<br/>
+<br/>
+
